@@ -8,9 +8,11 @@ case <varname> in
     code 
     ;;
   <opt2>) 
-    code;
+    code
     more code
     ;;
+  <opt3>) code ;;               # Not Recommended for readability
+  <opt4>) code; more code;;     # Not Recommended for readability
   *) 
     catchall
     ;;
